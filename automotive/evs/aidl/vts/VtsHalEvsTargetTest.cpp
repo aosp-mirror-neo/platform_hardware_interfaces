@@ -59,7 +59,7 @@
 namespace {
 
 // These values are called out in the EVS design doc (as of Mar 8, 2017)
-constexpr int kMaxStreamStartMilliseconds = 500;
+constexpr int kMaxStreamStartMilliseconds = 1000;
 constexpr int kMinimumFramesPerSecond = 10;
 constexpr int kSecondsToMilliseconds = 1000;
 constexpr int kMillisecondsToMicroseconds = 1000;
